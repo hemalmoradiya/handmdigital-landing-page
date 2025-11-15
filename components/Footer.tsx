@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           {/* Brand */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-2">
-            <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
-              H&amp;M Digital
-            </h3>
+            <img 
+              src="/handm-white.png" 
+              alt="H&M Digital" 
+              className="h-12 sm:h-16 w-auto mb-3 sm:mb-4"
+            />
             <p className="text-sm sm:text-base text-white opacity-70">
               Create invoices, track payments, manage clients. All in one app.
             </p>

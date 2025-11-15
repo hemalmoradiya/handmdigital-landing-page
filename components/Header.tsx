@@ -17,11 +17,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-black">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
-        <div className="flex items-center justify-between h-14 sm:h-16">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-xl sm:text-2xl font-bold text-black">
-              H&amp;M Digital
+            <a href="/" className="flex items-center">
+              <img 
+                src="/handm.png" 
+                alt="H&M Digital" 
+                className="h-12 sm:h-16 w-auto"
+              />
             </a>
           </div>
 

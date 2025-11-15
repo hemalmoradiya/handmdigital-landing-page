@@ -1,3 +1,7 @@
+'use client'
+
+import { useState, useRef } from 'react'
+
 const features = [
   {
     title: 'All-in-One Invoice & Quotation Maker',
@@ -56,6 +60,44 @@ const features = [
 ]
 
 export default function Features() {
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const [touchStart, setTouchStart] = useState(0)
+  const [touchEnd, setTouchEnd] = useState(0)
+  const sliderRef = useRef<HTMLDivElement>(null)
+
+  // Show 2 items per slide on mobile
+  const itemsPerSlide = 2
+  const totalSlides = Math.ceil(features.length / itemsPerSlide)
+
+  const goToSlide = (index: number) => {
+    if (index >= 0 && index < totalSlides) {
+      setCurrentSlide(index)
+    }
+  }
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientX)
+  }
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX)
+  }
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return
+    
+    const distance = touchStart - touchEnd
+    const isLeftSwipe = distance > 50
+    const isRightSwipe = distance < -50
+
+    if (isLeftSwipe && currentSlide < totalSlides - 1) {
+      goToSlide(currentSlide + 1)
+    }
+    if (isRightSwipe && currentSlide > 0) {
+      goToSlide(currentSlide - 1)
+    }
+  }
+
   return (
     <section id="features" className="py-12 sm:py-16 md:py-20 bg-white border-b border-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,7 +110,68 @@ export default function Features() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+        {/* Mobile Slider */}
+        <div className="sm:hidden">
+          <div
+            ref={sliderRef}
+            className="relative overflow-hidden"
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
+          >
+            <div
+              className="flex transition-transform duration-300 ease-in-out"
+              style={{
+                transform: `translateX(-${currentSlide * 100}%)`,
+              }}
+            >
+              {Array.from({ length: totalSlides }).map((_, slideIndex) => (
+                <div
+                  key={slideIndex}
+                  className="min-w-full flex gap-4"
+                >
+                  {features
+                    .slice(slideIndex * itemsPerSlide, slideIndex * itemsPerSlide + itemsPerSlide)
+                    .map((feature, index) => (
+                      <div
+                        key={slideIndex * itemsPerSlide + index}
+                        className="flex-1 p-5 border border-black hover:bg-black transition-colors group min-w-0"
+                      >
+                        <div className="w-10 h-10 border border-black flex items-center justify-center mb-3 group-hover:border-white group-hover:text-white">
+                          {feature.icon}
+                        </div>
+                        <h3 className="text-lg font-semibold text-black mb-2 group-hover:text-white">
+                          {feature.title}
+                        </h3>
+                        <p className="text-sm text-black opacity-70 group-hover:text-white group-hover:opacity-90 leading-relaxed">
+                          {feature.description}
+                        </p>
+                      </div>
+                    ))}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Indicators */}
+          <div className="flex justify-center items-center gap-2 mt-6">
+            {Array.from({ length: totalSlides }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`h-2 rounded-full transition-all duration-300 ${
+                  index === currentSlide
+                    ? 'w-8 bg-black'
+                    : 'w-2 bg-black opacity-30'
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Desktop Grid */}
+        <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
