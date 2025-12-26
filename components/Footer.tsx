@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -22,24 +24,20 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Links</h4>
             <ul className="space-y-2">
               <li>
-                <a 
-                  href="https://sites.google.com/view/digital-invoice-terms/home" 
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  href="/terms-and-conditions" 
                   className="text-sm sm:text-base text-white opacity-70 hover:opacity-100 transition-opacity touch-manipulation"
                 >
                   Terms and Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a 
-                  href="https://sites.google.com/view/digitalinvoice-policy/home" 
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  href="/privacy-policy" 
                   className="text-sm sm:text-base text-white opacity-70 hover:opacity-100 transition-opacity touch-manipulation"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
