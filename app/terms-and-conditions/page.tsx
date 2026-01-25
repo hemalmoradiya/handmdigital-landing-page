@@ -4,8 +4,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions — Digital Invoice by H&M Digital',
-  description: 'Terms and Conditions for Digital Invoice — Read our terms of service and usage policies.',
+  title: 'Terms and Conditions — HandM Digital Invoice by handmdigital',
+  description: 'Terms and Conditions for HandM Digital Invoice — Read our terms of service and usage policies.',
   robots: {
     index: true,
     follow: true,
@@ -23,13 +23,13 @@ export default function TermsAndConditions() {
 
           <div className="space-y-8 text-black">
             <p className="text-base sm:text-lg leading-relaxed">
-              These Terms and Conditions ("Terms") govern your use of the Digital Invoice mobile application ("App"). By installing or using the App, you agree to be bound by these Terms. If you do not agree, please discontinue use of the App.
+              These Terms and Conditions ("Terms") govern your use of the HandM Digital Invoice mobile application ("App"). By installing or using the App, you agree to be bound by these Terms. If you do not agree, please discontinue use of the App.
             </p>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">1. About Digital Invoice</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">1. About HandM Digital Invoice</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                Digital Invoice is a mobile application designed to help users create, manage, and store invoices directly on their device. The App operates primarily with local data storage and may display advertisements and use analytics services to improve functionality and user experience.
+                HandM Digital Invoice is a mobile application designed to help users create, manage, and store invoices directly on their device. The App operates primarily with local data storage and may display advertisements and use analytics services to improve functionality and user experience.
               </p>
             </section>
 
@@ -46,7 +46,7 @@ export default function TermsAndConditions() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">3. Local Data Storage and User Responsibility</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                All invoice data, client information, and business details entered into the App are stored locally on your device. Digital Invoice does not access, upload, or store this data on its own servers.
+                All invoice data, client information, and business details entered into the App are stored locally on your device. HandM Digital Invoice does not access, upload, or store this data on its own servers.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-4">You are responsible for:</p>
               <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg">
@@ -88,7 +88,7 @@ export default function TermsAndConditions() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">6. Intellectual Property</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                All intellectual property rights in the App, including its software, design, branding, and content, are owned by Digital Invoice or its licensors.
+                All intellectual property rights in the App, including its software, design, branding, and content, are owned by HandM Digital Invoice or its licensors.
               </p>
               <p className="text-base sm:text-lg leading-relaxed">
                 You are granted a limited, non-exclusive, non-transferable license to use the App for personal or business invoicing purposes only. You may not copy, distribute, sell, or resell the App or any part of it.
@@ -98,15 +98,15 @@ export default function TermsAndConditions() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">7. Backup and Data Loss</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                Digital Invoice does not provide cloud storage or data recovery services. All data remains under your control and is stored on your device unless you choose to create backups.
+                HandM Digital Invoice does not provide cloud storage or data recovery services. All data remains under your control and is stored on your device unless you choose to create backups.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 The App may offer local backup and Google Drive backup features as optional tools to help you preserve your data. However, these backup features are provided for convenience only and may fail due to device issues, storage limitations, connectivity problems, or third-party service errors.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                Even if a local backup or Google Drive backup is enabled or attempted, Digital Invoice does not guarantee successful backup or restoration. You remain solely responsible for verifying, maintaining, and safeguarding your backups.
+                Even if a local backup or Google Drive backup is enabled or attempted, HandM Digital Invoice does not guarantee successful backup or restoration. You remain solely responsible for verifying, maintaining, and safeguarding your backups.
               </p>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">To the maximum extent permitted by law, Digital Invoice is not responsible for any data loss, including loss resulting from:</p>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">To the maximum extent permitted by law, HandM Digital Invoice is not responsible for any data loss, including loss resulting from:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
                 <li>Backup failures (local or Google Drive)</li>
                 <li>Device damage, reset, or replacement</li>
@@ -136,7 +136,7 @@ export default function TermsAndConditions() {
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">10. Limitation of Liability</h2>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">To the maximum extent permitted by applicable law, Digital Invoice shall not be liable for:</p>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">To the maximum extent permitted by applicable law, HandM Digital Invoice shall not be liable for:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
                 <li>Loss of data</li>
                 <li>Loss of profits, business opportunities, or revenue</li>
@@ -150,7 +150,7 @@ export default function TermsAndConditions() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">11. Indemnification</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                You agree to indemnify and hold harmless Digital Invoice from any claims, damages, or expenses arising from your misuse of the App or violation of these Terms.
+                You agree to indemnify and hold harmless HandM Digital Invoice from any claims, damages, or expenses arising from your misuse of the App or violation of these Terms.
               </p>
             </section>
 
@@ -184,7 +184,7 @@ export default function TermsAndConditions() {
                 📧 <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
               </p>
               <p className="text-base sm:text-lg leading-relaxed mt-4">
-                <strong>Publisher:</strong> Digital Invoice (Gujarat, India)
+                <strong>Publisher:</strong> HandM Digital Invoice (Gujarat, India)
               </p>
             </section>
           </div>

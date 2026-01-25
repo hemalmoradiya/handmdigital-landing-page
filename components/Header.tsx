@@ -23,7 +23,7 @@ export default function Header() {
             <a href="/" className="flex items-center">
               <img 
                 src="/handm.png" 
-                alt="H&M Digital" 
+                alt="handmdigital" 
                 className="h-12 sm:h-16 w-auto"
               />
             </a>

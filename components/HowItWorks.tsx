@@ -12,7 +12,7 @@ const steps = [
   {
     number: '2',
     title: 'Create an Invoice or Quotation',
-    description: 'Add items, rates, taxes, discounts, and clients. All calculations happen automatically.',
+    description: 'Use our free invoice maker to add items, rates, taxes, discounts, and clients. All calculations happen automatically. Create professional quotations with our quotation maker and convert them to invoices when accepted.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -37,10 +37,10 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4">
-            How It Works
+            How to Use Our Free Invoice Maker
           </h2>
           <p className="text-lg text-black max-w-2xl mx-auto opacity-70">
-            Get started in three simple steps
+            Get started with our free invoice maker and quotation maker app in three simple steps
           </p>
         </div>
 

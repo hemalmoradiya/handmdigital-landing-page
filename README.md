@@ -1,6 +1,6 @@
-# H&M Digital Landing Page
+# handmdigital Landing Page
 
-A modern, responsive Next.js landing page for H&M Digital's utility app.
+A modern, responsive Next.js landing page for handmdigital' utility app.
 
 ## Features
 

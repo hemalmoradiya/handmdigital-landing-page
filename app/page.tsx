@@ -27,3 +27,6 @@ export default function Home() {
     </main>
   )
 }
+
+// SEO: This page is optimized for "free invoice maker" and "quotation maker app" keywords
+// Structured data, meta tags, and content are optimized for search engine visibility

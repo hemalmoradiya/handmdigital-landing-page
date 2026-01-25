@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-span-1 sm:col-span-2 lg:col-span-2">
             <img 
               src="/handm-white.png" 
-              alt="H&M Digital" 
+              alt="handmdigital" 
               className="h-12 sm:h-16 w-auto mb-3 sm:mb-4"
             />
             <p className="text-sm sm:text-base text-white opacity-70">
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-400 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white opacity-70">
           <p>
-            © 2025 H&amp;M Digital — All rights reserved.
+            © 2025 handmdigital — All rights reserved.
           </p>
         </div>
       </div>

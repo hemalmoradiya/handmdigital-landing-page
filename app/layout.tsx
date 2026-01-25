@@ -10,27 +10,27 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Digital Invoice — Fast, Professional Invoice & Quotation Maker by H&M Digital',
-  description: 'Create invoices, quotations, PDFs, and manage clients with Digital Invoice — the simplest, fastest billing app for freelancers and businesses. Track payments, send reminders, follow up automatically, and manage your business from anywhere.',
-  keywords: 'invoice maker, invoice app, quotation generator, billing software, invoice management, freelancer invoicing, small business invoicing, invoice PDF, payment tracking, invoice reminders, offline invoicing, invoice template, free invoice app',
-  authors: [{ name: 'H&M Digital' }],
-  creator: 'H&M Digital',
-  publisher: 'H&M Digital',
+  title: 'Free Invoice Maker & Quotation Maker App — HandM Digital Invoice',
+  description: 'Free invoice maker and quotation maker app. Create professional invoices, quotations, and PDFs in minutes. Track payments, manage clients, send reminders. Works offline. No subscription required. Download free invoice maker app for Android & iOS.',
+  keywords: 'free invoice maker, quotation maker app, free invoice app, invoice generator, quotation generator, invoice maker free, free quotation maker, invoice maker app, quotation app, invoice software, billing app, invoice creator, free billing software, invoice maker online, quotation maker online, invoice PDF generator, professional invoice maker, invoice management app, small business invoicing, freelancer invoice maker',
+  authors: [{ name: 'handmdigital' }],
+  creator: 'handmdigital',
+  publisher: 'handmdigital',
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://handmdigital.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Digital Invoice — Fast, Professional Invoice & Quotation Maker by H&M Digital',
-    description: 'Create invoices, quotations, PDFs, and manage clients with Digital Invoice — the simplest, fastest billing app for freelancers and businesses.',
+    title: 'Free Invoice Maker & Quotation Maker App — HandM Digital Invoice',
+    description: 'Free invoice maker and quotation maker app. Create professional invoices, quotations, and PDFs in minutes. Track payments, manage clients, send reminders. Works offline. No subscription required.',
     url: process.env.NEXT_PUBLIC_BASE_URL || 'https://handmdigital.com',
-    siteName: 'Digital Invoice',
+    siteName: 'handmdigital',
     images: [
       {
         url: '/hero-phone.png',
         width: 1200,
         height: 630,
-        alt: 'Digital Invoice App - Invoice Maker',
+        alt: 'HandM Digital Invoice App - Invoice Maker',
       },
     ],
     locale: 'en_US',
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Digital Invoice — Fast, Professional Invoice & Quotation Maker by H&M Digital',
-    description: 'Create invoices, quotations, PDFs, and manage clients with Digital Invoice — the simplest, fastest billing app for freelancers and businesses.',
+    title: 'Free Invoice Maker & Quotation Maker App — HandM Digital Invoice',
+    description: 'Free invoice maker and quotation maker app. Create professional invoices, quotations, and PDFs in minutes. Track payments, manage clients, send reminders. Works offline.',
     images: ['/hero-phone.png'],
   },
   robots: {

@@ -1,12 +1,16 @@
 const benefits = [
-  'Create invoices in under 1 minute',
+  'Free invoice maker — no subscription required',
+  'Create professional invoices in under 1 minute',
+  'Quotation maker with versioning and expiry dates',
   'Convert quotations to invoices instantly',
-  'Automate follow-ups and reminders',
+  'Track full and partial payments automatically',
+  'Automate follow-ups and payment reminders',
   'Manage clients without spreadsheets',
-  'Track payments & overdue invoices easily',
-  'Branded PDFs with your business identity',
-  'Works offline — no internet required',
-  'Reliable local storage & backup tools',
+  'Multi-currency support for international businesses',
+  'Multiple business profiles in one app',
+  'Professional branded PDFs with your logo',
+  'Works completely offline — no internet required',
+  'Secure local storage with cloud backup options',
 ]
 
 export default function Benefits() {
@@ -15,7 +19,7 @@ export default function Benefits() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="border border-black p-6 sm:p-8 md:p-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-6 sm:mb-8 text-center">
-            Why Choose Digital Invoice?
+            Why Choose Our Free Invoice Maker & Quotation Maker?
           </h2>
           <ul className="space-y-3 sm:space-y-4">
             {benefits.map((benefit, index) => (

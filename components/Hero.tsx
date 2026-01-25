@@ -7,12 +7,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left max-w-5xl mx-auto lg:mx-0 lg:pr-8 order-2 lg:order-1">
+            <div className="mb-3 sm:mb-4 -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)] px-2 sm:px-0">
+              <span className="text-lg sm:text-xl md:text-2xl font-semibold text-black">handmdigital</span>
+            </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-4 sm:mb-6 block -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)]">
-              <div className="block">Invoice in minutes.</div>
-              <div className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2">Manage your business in one place.</div>
+              <div className="block">Free Invoice Maker &amp; Quotation Maker</div>
+              <div className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2">Create professional invoices in minutes</div>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-black mb-6 sm:mb-8 opacity-70 block -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)] px-2 sm:px-0">
-              Digital Invoice, by H&amp;M Digital, helps you create professional invoices &amp; quotations, track payments, manage clients, send reminders, and stay organized — all from your phone. Fast, reliable, and built for modern businesses.
+              The best free invoice maker and quotation maker app for freelancers and small businesses. Create invoices, quotations, generate PDFs, track payments, manage clients, and send reminders — all for free. Works offline. No subscription required. Download the free invoice maker app now.
             </p>
             
             {/* CTAs */}
@@ -36,7 +39,7 @@ export default function Hero() {
 
             {/* Supporting microcopy */}
             <p className="text-xs sm:text-sm text-black opacity-60 block -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)] px-2 sm:px-0">
-              Works offline • Smart reminders • Secure local storage
+              Free forever • Works offline • Professional PDFs • Multi-currency • No subscription
             </p>
           </div>
 
@@ -45,7 +48,7 @@ export default function Hero() {
             <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:max-w-md">
               <Image 
                 src="/hero-phone.png" 
-                alt="Digital Invoice app preview showing invoice creation interface on mobile device"
+                alt="HandM Digital Invoice app preview showing invoice creation interface on mobile device"
                 width={400}
                 height={800}
                 priority

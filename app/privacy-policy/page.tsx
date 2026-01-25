@@ -3,8 +3,8 @@ import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Digital Invoice by H&M Digital',
-  description: 'Privacy Policy for Digital Invoice — Learn how we handle your data with a local-first approach to privacy and security.',
+  title: 'Privacy Policy — HandM Digital Invoice by handmdigital',
+  description: 'Privacy Policy for HandM Digital Invoice — Learn how we handle your data with a local-first approach to privacy and security.',
   robots: {
     index: true,
     follow: true,
@@ -22,13 +22,13 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8 text-black">
             <p className="text-base sm:text-lg leading-relaxed">
-              Digital Invoice is a local-first invoice management application designed with a strong focus on user privacy and data security. This Privacy Policy explains how information is handled when you use the Digital Invoice mobile application ("App").
+              HandM Digital Invoice is a local-first invoice management application designed with a strong focus on user privacy and data security. This Privacy Policy explains how information is handled when you use the HandM Digital Invoice mobile application ("App").
             </p>
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">1. Contact Information</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                <strong>Publisher:</strong> Digital Invoice (Gujarat, India)<br />
+                <strong>Publisher:</strong> HandM Digital Invoice (Gujarat, India)<br />
                 <strong>Email:</strong> <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
               </p>
             </section>
@@ -190,7 +190,7 @@ export default function PrivacyPolicy() {
                 <li>You retain full ownership and control of your data</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed mt-4">
-                <strong>Publisher:</strong> Digital Invoice<br />
+                <strong>Publisher:</strong> HandM Digital Invoice<br />
                 <strong>Location:</strong> Gujarat, India
               </p>
             </section>

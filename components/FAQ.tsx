@@ -4,24 +4,52 @@ import { useState, useRef } from 'react'
 
 const faqs = [
   {
-    question: 'Is Digital Invoice free?',
-    answer: 'Yes. Core features are free forever with an optional Pro upgrade coming soon.',
+    question: 'Is this a free invoice maker app?',
+    answer: 'Yes! HandM Digital Invoice is completely free. All core features including invoice creation, quotation maker, PDF generation, payment tracking, and client management are free forever. No subscription required, no hidden fees.',
   },
   {
-    question: 'Does the app work offline?',
-    answer: 'Absolutely. You can create invoices, manage clients, and receive reminders offline.',
+    question: 'How do I create an invoice with this free invoice maker?',
+    answer: 'Creating an invoice is simple: 1) Set up your business profile (logo, details, tax ID), 2) Add client information, 3) Add line items with quantities and rates, 4) Apply taxes and discounts if needed, 5) Generate and share the PDF. The app calculates totals automatically.',
   },
   {
-    question: 'Can I customize PDF invoices?',
-    answer: 'Yes. Add your logo, business details, tax ID, and choose templates.',
+    question: 'Can I create quotations with this quotation maker app?',
+    answer: 'Absolutely! Our quotation maker lets you create professional quotations with versioning, expiry dates, and follow-up reminders. You can convert accepted quotations to invoices with one tap. Track quotation status (Draft, Sent, Accepted, Rejected, Expired, Converted).',
   },
   {
-    question: 'Is my data secure?',
-    answer: 'All data is stored locally on your device with backup options available.',
+    question: 'Does the free invoice maker work offline?',
+    answer: 'Yes! This is an offline-first invoice maker app. You can create invoices, quotations, manage clients, track payments, and receive reminders completely offline. All data is stored locally on your device.',
   },
   {
-    question: 'What devices are supported?',
-    answer: 'Android and iOS versions are available. Web version coming soon.',
+    question: 'Can I customize PDF invoices with my logo?',
+    answer: 'Yes! Add your business logo, company name, address, contact details, tax ID, and customize invoice templates. The PDF generator creates professional, branded invoices that you can preview before downloading or sharing.',
+  },
+  {
+    question: 'Does this invoice maker support multiple currencies?',
+    answer: 'Yes! Our free invoice maker supports multiple currencies. You can select different currencies for each invoice, customize currency symbols, and create invoices for international clients. Perfect for freelancers and businesses working globally.',
+  },
+  {
+    question: 'Can I track payments with this invoice app?',
+    answer: 'Yes! Track full and partial payments per invoice. Record payment history with dates and notes. The app automatically updates invoice status (Paid, Pending, Overdue). View detailed payment records in the payment history section.',
+  },
+  {
+    question: 'How do I manage multiple businesses with this invoice maker?',
+    answer: 'You can create and manage multiple business profiles from one app. Each profile has its own logo, business information, tax ID, and invoice settings. Switch between businesses easily - perfect for freelancers with multiple ventures.',
+  },
+  {
+    question: 'Is my invoice data secure?',
+    answer: 'Yes! All data is stored locally on your device with secure SQLite database. You have full control over your data. Optional cloud backup and restore available. Google Drive integration for additional backup. Export and import capabilities for data portability.',
+  },
+  {
+    question: 'What devices support this free invoice maker app?',
+    answer: 'Currently available for Android and iOS. The app works on phones and tablets. Web version coming soon. Cross-platform support ensures you can access your invoices from any device.',
+  },
+  {
+    question: 'Can I convert quotations to invoices?',
+    answer: 'Yes! Our quotation maker allows you to convert accepted quotations to invoices instantly with one tap. All quotation details, line items, taxes, and discounts are automatically transferred to the new invoice.',
+  },
+  {
+    question: 'Does this invoice maker send payment reminders?',
+    answer: 'Yes! Get smart notifications for pending invoices, due dates, overdue invoices, and quotation follow-ups. Reminders work offline and send alerts even when the app is closed. Never miss a payment again.',
   },
 ]
 
@@ -48,8 +76,11 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
-            Frequently Asked Questions
+            Frequently Asked Questions About Our Free Invoice Maker
           </h2>
+          <p className="text-base sm:text-lg text-black max-w-2xl mx-auto opacity-70 px-4 sm:px-0">
+            Everything you need to know about our free invoice maker and quotation maker app
+          </p>
         </div>
 
         <div className="space-y-3 sm:space-y-4">
