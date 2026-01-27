@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-400 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-white opacity-70">
           <p>
-            © 2025 handmdigital — All rights reserved.
+            © {currentYear} handmdigital — All rights reserved.
           </p>
         </div>
       </div>

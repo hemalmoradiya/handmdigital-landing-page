@@ -18,22 +18,57 @@ export default function Hero() {
               The best free invoice maker and quotation maker app for freelancers and small businesses. Create invoices, quotations, generate PDFs, track payments, manage clients, and send reminders — all for free. Works offline. No subscription required. Download the free invoice maker app now.
             </p>
             
-            {/* CTAs */}
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-4 sm:mb-6 -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)] px-2 sm:px-0">
+            {/* Store badges */}
+            <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start mb-4 sm:mb-6 -mx-4 sm:-mx-8 lg:-mx-16 xl:-mx-24 w-[calc(100%+2rem)] sm:w-[calc(100%+4rem)] lg:w-[calc(100%+8rem)] xl:w-[calc(100%+12rem)] px-2 sm:px-0">
               <a
                 href="https://play.google.com/store/apps/details?id=com.digiinvoicemaker.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 border border-black text-sm sm:text-base font-medium bg-black text-white hover:bg-white hover:text-black transition-colors"
-                aria-label="Get the app for free"
+                aria-label="Get the Android app on Google Play"
+                className="inline-flex items-center justify-center bg-black rounded-[10px] px-3 py-1 border border-black"
               >
-                Get the App — Free
+                <div className="flex items-center gap-2">
+                  <Image
+                    src="/android.png"
+                    alt="Get it on Google Play"
+                    width={40}
+                    height={40}
+                    className="h-8 w-8 sm:h-9 sm:w-9"
+                  />
+                  <div className="flex flex-col items-start leading-none">
+                    <span className="text-[10px] sm:text-xs font-medium text-white uppercase">
+                      GET IT ON
+                    </span>
+                    <span className="text-sm sm:text-base font-semibold text-white">
+                      Google Play
+                    </span>
+                  </div>
+                </div>
               </a>
               <a
-                href="#how-it-works"
-                className="inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 border border-black text-sm sm:text-base font-medium text-black bg-white hover:bg-black hover:text-white transition-colors"
+                href="https://apps.apple.com/us/app/invoice-quote-maker/id6758097896"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download on the App Store for iOS"
+                className="inline-flex items-center justify-center bg-black rounded-[10px] px-3 py-1 border border-black"
               >
-                See How It Works
+                <div className="flex items-center gap-2">
+                  <Image
+                    src="/apple.png"
+                    alt="Download on the App Store"
+                    width={40}
+                    height={40}
+                    className="h-8 w-8 sm:h-9 sm:w-9"
+                  />
+                  <div className="flex flex-col items-start leading-none">
+                    <span className="text-[10px] sm:text-xs font-medium text-white ">
+                      Download on the
+                    </span>
+                    <span className="text-sm sm:text-base font-semibold text-white">
+                      App Store
+                    </span>
+                  </div>
+                </div>
               </a>
             </div>
 

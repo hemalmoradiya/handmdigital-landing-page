@@ -25,7 +25,10 @@ export default function StructuredData() {
     },
     "description": "Free invoice maker and quotation maker app. Create professional invoices, quotations, and PDFs in minutes. Track payments, manage clients, send reminders. Works offline. No subscription required. Download free invoice maker app for Android & iOS.",
     "url": baseUrl,
-    "downloadUrl": "https://play.google.com/store/apps/details?id=com.digiinvoicemaker.app",
+    "downloadUrl": [
+      "https://play.google.com/store/apps/details?id=com.digiinvoicemaker.app",
+      "https://apps.apple.com/us/app/invoice-quote-maker/id6758097896"
+    ],
     "screenshot": `${baseUrl}/hero-phone.png`,
     "author": {
       "@type": "Organization",
