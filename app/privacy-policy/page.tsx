@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
 
               <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.2 Analytics Information</h3>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                We use Firebase Analytics to understand general app usage and improve functionality and performance. Analytics data is aggregated and anonymized.
+                We use Google Firebase Analytics to understand general app usage and improve functionality and performance. Analytics data is aggregated and anonymized.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-4">Analytics may include:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
@@ -76,12 +76,38 @@ export default function PrivacyPolicy() {
                 <li>Approximate location (country or region level only)</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed">
-                Ad personalization preferences can be managed through your device's privacy and advertising settings.
+                Ad personalization preferences can be managed through your device's privacy settings and, where applicable, through the consent form provided at first launch.
               </p>
 
               <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.4 Remote Configuration</h3>
               <p className="text-base sm:text-lg leading-relaxed">
                 We use Firebase Remote Config to manage app behavior, feature availability, and configuration updates without requiring a full app update. No invoice, client, or business data is shared or transmitted through this service.
+              </p>
+
+              <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.5 Consent for Users in the EEA, United Kingdom, and Switzerland</h3>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, we request your consent before displaying personalized advertisements, in accordance with applicable data protection laws such as the General Data Protection Regulation (GDPR) and UK GDPR.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                We use Google's User Messaging Platform (UMP) to present consent choices where legally required. Through this consent form, you may:
+              </p>
+              <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
+                <li>Accept or decline personalized ads</li>
+                <li>Manage your advertising preferences</li>
+                <li>Withdraw or change consent at any time</li>
+              </ul>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                Your consent choices are stored and managed by Google and applied to advertising services accordingly.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                If you decline personalized advertising, non-personalized ads may still be displayed.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                Where required by law, personalized advertising is processed based on your explicit consent.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed">
+                For more information on how Google processes data, please review:{' '}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-black underline hover:no-underline">Google Privacy Policy</a>.
               </p>
             </section>
 
@@ -93,8 +119,11 @@ export default function PrivacyPolicy() {
                 <li>Analytics help improve performance and user experience</li>
                 <li>Advertising data supports ad delivery and measurement</li>
               </ul>
-              <p className="text-base sm:text-lg leading-relaxed">
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
                 We do not sell, rent, or trade your data, and we do not share your local business information with third parties.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed">
+                Certain third-party services (such as Google Analytics and Google Mobile Ads) may process data according to their own privacy policies.
               </p>
             </section>
 
@@ -159,7 +188,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">9. International Users</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                Analytics and advertising data may be processed by Google services outside India, subject to Google's privacy and data protection standards.
+                Analytics and advertising data may be processed by Google and its partners in accordance with applicable data protection laws, including GDPR where applicable.
               </p>
             </section>
 
