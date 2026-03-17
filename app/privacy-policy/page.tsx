@@ -98,15 +98,12 @@ export default function PrivacyPolicy() {
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 We do not sell, rent, or trade your data, and we do not share your local business information with third parties.
               </p>
-              <p className="text-base sm:text-lg leading-relaxed">
-                The App does not verify, validate, or guarantee the accuracy, legality, or completeness of invoices or financial information created by users. All invoices and records generated using the App are created solely based on information entered by the user.
-              </p>
             </section>
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">4. Legal Basis for Processing (GDPR)</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                For users in the European Economic Area (EEA), our processing of analytics and advertising data is based on legitimate interests (improving app performance and funding development). You may withdraw consent or object to processing at any time through your device settings or by contacting us at{' '}
+                For users in the European Economic Area (EEA), our processing of analytics data is based on legitimate interests (improving app performance and funding development). For advertising, we rely on your consent where required by applicable law. You may withdraw consent or object to processing at any time through your device settings or by contacting us at{' '}
                 <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>.
               </p>
             </section>

@@ -63,12 +63,12 @@ export default function TermsAndConditions() {
                 <li>Securing your device and controlling access to the App</li>
                 <li>Ensuring that invoices and records comply with local tax, accounting, and legal requirements</li>
               </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">3A. User Generated Content</h2>
-              <p className="text-base sm:text-lg leading-relaxed">
+              <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">3.1 User Generated Content</h3>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
                 All invoices, client details, financial information, and other records created within the App are generated entirely by users. HandM Digital Invoice does not review, verify, approve, or monitor this content. Users are solely responsible for the accuracy, legality, and distribution of any documents created using the App.
+              </p>
+              <p className="text-base sm:text-lg leading-relaxed">
+                The App does not verify, validate, or guarantee the accuracy, legality, or completeness of invoices or financial information created by users. All invoices and records generated using the App are created solely based on information entered by the user.
               </p>
             </section>
 
@@ -215,7 +215,21 @@ export default function TermsAndConditions() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">17. Contact Information</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">17. Force Majeure</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                HandM Digital Invoice shall not be liable for any failure or delay in performance resulting from causes beyond its reasonable control, including but not limited to internet outages, third-party service failures, natural disasters, or government actions.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">18. Entire Agreement</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                These Terms, together with our <Link href="/privacy-policy" className="text-black underline hover:no-underline">Privacy Policy</Link>, constitute the entire agreement between you and HandM Digital Invoice regarding the use of the App and supersede all prior agreements or understandings.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">19. Contact Information</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 If you have questions or concerns regarding these Terms, you may contact us at:
               </p>
