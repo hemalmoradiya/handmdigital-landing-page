@@ -58,7 +58,6 @@ pnpm dev
 │   ├── Features.tsx        # Feature highlights
 │   ├── HowItWorks.tsx      # Three-step process
 │   ├── Screenshots.tsx     # Product UI carousel
-│   ├── Testimonials.tsx    # User testimonials
 │   ├── Benefits.tsx        # Benefits section
 │   ├── Pricing.tsx         # Pricing plans
 │   ├── About.tsx           # About section
@@ -85,10 +84,6 @@ Edit `components/Footer.tsx` and replace `support@hmdigital.example` with your a
   className="w-full h-full object-cover"
 />
 ```
-
-### Update Testimonials
-
-Replace placeholder testimonials in `components/Testimonials.tsx` with real user quotes.
 
 ### Set Pricing
 

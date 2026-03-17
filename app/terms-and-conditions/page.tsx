@@ -23,6 +23,12 @@ export default function TermsAndConditions() {
 
           <div className="space-y-8 text-black">
             <p className="text-base sm:text-lg leading-relaxed">
+              <strong>HandM Digital Invoice</strong>
+              <br />
+              <strong>Publisher:</strong> HandM Digital Invoice, Gujarat, India
+            </p>
+
+            <p className="text-base sm:text-lg leading-relaxed">
               These Terms and Conditions ("Terms") govern your use of the HandM Digital Invoice mobile application ("App"). By installing or using the App, you agree to be bound by these Terms. If you do not agree, please discontinue use of the App.
             </p>
 
@@ -31,13 +37,16 @@ export default function TermsAndConditions() {
               <p className="text-base sm:text-lg leading-relaxed">
                 HandM Digital Invoice is a mobile application designed to help users create, manage, and store invoices directly on their device. The App operates primarily with local data storage and may display advertisements and use analytics services to improve functionality and user experience.
               </p>
+              <p className="text-base sm:text-lg leading-relaxed mt-4">
+                The App functions solely as a document creation tool and does not act as a financial intermediary, accounting service, tax advisor, or payment processor.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">2. Eligibility</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">To use the App, you confirm that:</p>
               <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg">
-                <li>You are at least 18 years old or the legal age of majority in your jurisdiction.</li>
+                <li>You are at least 13 years old. Users between the ages of 13 and 18 must have parental or guardian consent.</li>
                 <li>You will use the App in compliance with all applicable laws and regulations.</li>
                 <li>If you are using the App on behalf of a business or organization, you represent that you have the authority to accept these Terms on its behalf.</li>
               </ul>
@@ -57,13 +66,20 @@ export default function TermsAndConditions() {
             </section>
 
             <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">3A. User Generated Content</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                All invoices, client details, financial information, and other records created within the App are generated entirely by users. HandM Digital Invoice does not review, verify, approve, or monitor this content. Users are solely responsible for the accuracy, legality, and distribution of any documents created using the App.
+              </p>
+            </section>
+
+            <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">4. Third-Party Services</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 The App may integrate third-party services, including:
               </p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
                 <li>Google AdMob (advertising)</li>
-                <li>Firebase Analytics (aggregated and anonymized usage analytics)</li>
+                <li>Firebase Analytics (aggregated usage analytics which may be anonymized or pseudonymized)</li>
                 <li>Firebase Remote Config (feature and configuration updates)</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed">
@@ -77,8 +93,12 @@ export default function TermsAndConditions() {
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
                 <li>Reverse engineer, modify, or tamper with the App</li>
                 <li>Attempt to bypass security or access restricted features</li>
-                <li>Use the App for unlawful, fraudulent, or harmful purposes</li>
+                <li>
+                  Use the App for unlawful, fraudulent, or harmful purposes, including but not limited to generating fraudulent invoices, falsifying financial records, or evading taxes
+                </li>
+                <li>Use the App to create documents intended to mislead, defraud, or impersonate legitimate businesses or individuals</li>
                 <li>Introduce malicious code or misuse network resources</li>
+                <li>Use the App to impersonate any person, business, or entity</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed">
                 Violation of these rules may result in suspension or termination of your access to the App.
@@ -132,6 +152,9 @@ export default function TermsAndConditions() {
               <p className="text-base sm:text-lg leading-relaxed">
                 Your use of the App is at your own discretion and risk.
               </p>
+              <p className="text-base sm:text-lg leading-relaxed mt-4">
+                HandM Digital Invoice does not provide tax, accounting, financial, or legal advice. Users are solely responsible for ensuring that invoices, tax calculations, and financial records generated using the App comply with applicable laws and regulations in their jurisdiction.
+              </p>
             </section>
 
             <section>
@@ -155,36 +178,52 @@ export default function TermsAndConditions() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">12. Termination</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">12. Informal Dispute Resolution</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                We may suspend or terminate access to the App if you breach these Terms or misuse the App. Upon termination, you must discontinue use of the App.
+                Before filing any legal claim, you agree to first contact HandM Digital Invoice at{' '}
+                <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>{' '}
+                to attempt informal resolution. We will endeavor to respond within 30 days. If the matter cannot be resolved informally, either party may proceed with formal legal action as outlined in Section 13.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">13. Governing Law</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                These Terms are governed by the laws of India, and any disputes shall be subject to the exclusive jurisdiction of the courts in Gujarat, India.
+                These Terms are governed by the laws of India. To the extent permitted by applicable local law, any disputes shall be subject to the exclusive jurisdiction of the courts in Gujarat, India.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">14. Changes to These Terms</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">14. Severability</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                If any provision of these Terms is found to be invalid, unlawful, or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it enforceable, or severed if modification is not possible. The remaining provisions of these Terms shall continue in full force and effect.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">15. Purchases and Refunds</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                If the App or any in-app features are offered for purchase, all transactions are subject to the refund and payment policies of the respective app store platform (Google Play or Apple App Store). HandM Digital Invoice does not process payments directly and has no control over platform-level refund decisions.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">16. Changes to These Terms</h2>
               <p className="text-base sm:text-lg leading-relaxed">
                 We may update these Terms periodically. Updated versions will be made available within the App. Continued use of the App constitutes acceptance of the revised Terms.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">15. Contact Information</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">17. Contact Information</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 If you have questions or concerns regarding these Terms, you may contact us at:
               </p>
               <p className="text-base sm:text-lg leading-relaxed">
-                📧 <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
+                <strong>Email:</strong> <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
               </p>
               <p className="text-base sm:text-lg leading-relaxed mt-4">
-                <strong>Publisher:</strong> HandM Digital Invoice (Gujarat, India)
+                <strong>Publisher:</strong> HandM Digital Invoice, Gujarat, India
               </p>
             </section>
           </div>

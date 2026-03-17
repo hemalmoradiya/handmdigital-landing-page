@@ -4,7 +4,6 @@ import TrustBar from '@/components/TrustBar'
 import Features from '@/components/Features'
 import HowItWorks from '@/components/HowItWorks'
 import Screenshots from '@/components/Screenshots'
-import Testimonials from '@/components/Testimonials'
 import Benefits from '@/components/Benefits'
 import About from '@/components/About'
 import FAQ from '@/components/FAQ'
@@ -19,7 +18,6 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Screenshots />
-      <Testimonials />
       <Benefits />
       <About />
       <FAQ />

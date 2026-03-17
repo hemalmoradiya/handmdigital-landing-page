@@ -22,7 +22,9 @@ export default function PrivacyPolicy() {
 
           <div className="space-y-8 text-black">
             <p className="text-base sm:text-lg leading-relaxed">
-              HandM Digital Invoice is a local-first invoice management application designed with a strong focus on user privacy and data security. This Privacy Policy explains how information is handled when you use the HandM Digital Invoice mobile application ("App").
+              <strong>HandM Digital Invoice</strong>
+              <br />
+              <strong>Publisher:</strong> HandM Digital Invoice, Gujarat, India
             </p>
 
             <section>
@@ -53,7 +55,7 @@ export default function PrivacyPolicy() {
 
               <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.2 Analytics Information</h3>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
-                We use Google Firebase Analytics to understand general app usage and improve functionality and performance. Analytics data is aggregated and anonymized.
+                We use Firebase Analytics to understand general app usage and improve functionality and performance. Analytics data is aggregated and may be anonymized or pseudonymized depending on the processing performed by Google Firebase.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-4">Analytics may include:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
@@ -76,38 +78,12 @@ export default function PrivacyPolicy() {
                 <li>Approximate location (country or region level only)</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed">
-                Ad personalization preferences can be managed through your device's privacy settings and, where applicable, through the consent form provided at first launch.
+                Ad personalization preferences can be managed through your device&apos;s privacy and advertising settings.
               </p>
 
               <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.4 Remote Configuration</h3>
               <p className="text-base sm:text-lg leading-relaxed">
                 We use Firebase Remote Config to manage app behavior, feature availability, and configuration updates without requiring a full app update. No invoice, client, or business data is shared or transmitted through this service.
-              </p>
-
-              <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-3 text-black">2.5 Consent for Users in the EEA, United Kingdom, and Switzerland</h3>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">
-                If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, we request your consent before displaying personalized advertisements, in accordance with applicable data protection laws such as the General Data Protection Regulation (GDPR) and UK GDPR.
-              </p>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">
-                We use Google's User Messaging Platform (UMP) to present consent choices where legally required. Through this consent form, you may:
-              </p>
-              <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
-                <li>Accept or decline personalized ads</li>
-                <li>Manage your advertising preferences</li>
-                <li>Withdraw or change consent at any time</li>
-              </ul>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">
-                Your consent choices are stored and managed by Google and applied to advertising services accordingly.
-              </p>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">
-                If you decline personalized advertising, non-personalized ads may still be displayed.
-              </p>
-              <p className="text-base sm:text-lg leading-relaxed mb-4">
-                Where required by law, personalized advertising is processed based on your explicit consent.
-              </p>
-              <p className="text-base sm:text-lg leading-relaxed">
-                For more information on how Google processes data, please review:{' '}
-                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-black underline hover:no-underline">Google Privacy Policy</a>.
               </p>
             </section>
 
@@ -123,12 +99,20 @@ export default function PrivacyPolicy() {
                 We do not sell, rent, or trade your data, and we do not share your local business information with third parties.
               </p>
               <p className="text-base sm:text-lg leading-relaxed">
-                Certain third-party services (such as Google Analytics and Google Mobile Ads) may process data according to their own privacy policies.
+                The App does not verify, validate, or guarantee the accuracy, legality, or completeness of invoices or financial information created by users. All invoices and records generated using the App are created solely based on information entered by the user.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">4. Data Storage and Security</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">4. Legal Basis for Processing (GDPR)</h2>
+              <p className="text-base sm:text-lg leading-relaxed">
+                For users in the European Economic Area (EEA), our processing of analytics and advertising data is based on legitimate interests (improving app performance and funding development). You may withdraw consent or object to processing at any time through your device settings or by contacting us at{' '}
+                <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">5. Data Storage and Security</h2>
               <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg">
                 <li>All invoice and business data remains stored on your device</li>
                 <li>Local data is protected using your device's security mechanisms (such as encryption and access controls)</li>
@@ -138,7 +122,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">5. Backups and Data Control</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">6. Backups and Data Control</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">
                 The App may offer local backup and Google Drive backup features as optional tools for data preservation. These backups are created and stored under your control.
               </p>
@@ -157,13 +141,14 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">6. Your Controls and Choices</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">7. Your Controls and Choices</h2>
               <p className="text-base sm:text-lg leading-relaxed mb-4">You can:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2 text-base sm:text-lg">
                 <li>View, edit, delete, or export your local data at any time</li>
                 <li>Disable analytics collection through device or app settings (where supported)</li>
                 <li>Manage ad personalization through device privacy settings</li>
                 <li>Permanently remove all local data by uninstalling the App</li>
+                <li>Request deletion of analytics data through applicable Google controls</li>
               </ul>
               <p className="text-base sm:text-lg leading-relaxed">
                 Once deleted, data cannot be restored by us.
@@ -171,7 +156,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">7. Data Retention</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">8. Data Retention</h2>
               <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg">
                 <li>Local data remains on your device until you delete it</li>
                 <li>Analytics data is retained by Google Firebase according to their retention policies and may be deleted upon request through applicable Google controls</li>
@@ -179,33 +164,36 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">8. Children's Privacy</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">9. Children's Privacy</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                The App is not intended for children under the age of 13 and does not knowingly collect personal information from children.
+                The App is not intended for children under the age of 13 and does not knowingly collect personal information from children. Use of the App is restricted to individuals aged 13 or older.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">9. International Users</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">10. International Users</h2>
               <p className="text-base sm:text-lg leading-relaxed">
-                Analytics and advertising data may be processed by Google and its partners in accordance with applicable data protection laws, including GDPR where applicable.
+                Analytics and advertising data may be processed by Google services outside India, subject to Google&apos;s privacy and data protection standards.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">10. Policy Updates</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">11. Policy Updates</h2>
               <p className="text-base sm:text-lg leading-relaxed">
                 We may update this Privacy Policy periodically. Updated versions will be available within the App along with a revised effective date. Continued use of the App indicates acceptance of the updated policy.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">11. Contact Us</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mt-8 mb-4 text-black">12. Contact Us</h2>
               <p className="text-base sm:text-lg leading-relaxed">
                 If you have any questions or privacy-related concerns, please contact:
               </p>
+              <p className="text-base sm:text-lg leading-relaxed mb-2">
+                <strong>Email:</strong> <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
+              </p>
               <p className="text-base sm:text-lg leading-relaxed">
-                📧 <a href="mailto:digitalhandm@gmail.com" className="text-black underline hover:no-underline">digitalhandm@gmail.com</a>
+                <strong>Publisher:</strong> HandM Digital Invoice, Gujarat, India
               </p>
             </section>
 
@@ -214,14 +202,11 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 space-y-2 text-base sm:text-lg">
                 <li>Your invoice and business data stays on your device</li>
                 <li>We do not collect or store your private business information</li>
-                <li>Analytics data is anonymized and limited to app improvement</li>
+                <li>Analytics data is aggregated and may be anonymized or pseudonymized and is used only to improve the App</li>
                 <li>Ads support the App, with user control over personalization</li>
                 <li>You retain full ownership and control of your data</li>
+                <li>GDPR users may request data deletion via Google controls or contact us directly</li>
               </ul>
-              <p className="text-base sm:text-lg leading-relaxed mt-4">
-                <strong>Publisher:</strong> HandM Digital Invoice<br />
-                <strong>Location:</strong> Gujarat, India
-              </p>
             </section>
           </div>
         </div>
